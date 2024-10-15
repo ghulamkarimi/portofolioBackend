@@ -1,5 +1,6 @@
-import { createFeedback, getAllFeedback } from "@/controller/feedbackController"
+
 import express from "express"
+import { createFeedback, getAllFeedback } from "../controller/feedbackController"
 
 
 

@@ -1,5 +1,6 @@
-import { postContact } from "@/controller/contactController"
+
 import express from "express"
+import { postContact } from "../controller/contactController"
 
 
 

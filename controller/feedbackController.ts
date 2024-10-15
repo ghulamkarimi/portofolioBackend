@@ -1,6 +1,7 @@
 import asyncHandler from "express-async-handler"
 import {Request,Response} from "express"
-import feedbackSchema from "@/schema/feedbackSchema";
+import feedbackSchema from "../schema/feedbackSchema";
+
 
 
 
