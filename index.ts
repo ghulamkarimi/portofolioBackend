@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(
     cors({
-        origin: ['http://localhost:5173', 'http://localhost:3000'],
+        origin: ['http://localhost:5173', 'http://localhost:3000', 'https://api.ai-webkraft.de'],
         credentials: true
     }));
 // app.use(cors({ credentials: true, origin: "https://portfolio.khalil-dev.me" }));
