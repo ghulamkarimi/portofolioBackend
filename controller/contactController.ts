@@ -32,7 +32,7 @@ export const postContact = asyncHandler(async (req: Request, res: Response) => {
             </p>
             <hr style="border: 1px solid #ddd;">
             <footer style="font-size: 14px; color: #777;">
-              <p>Sent from your contact form at <a href="https://yourwebsite.com" style="color: #0056b3; text-decoration: none;">khalil-dev.me</a></p>
+              <p>Sent from your contact form at <a href="https://yourwebsite.com" style="color: #0056b3; text-decoration: none;">ai-webkraft.de</a></p>
             </footer>
           </div>
         `,  

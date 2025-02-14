@@ -13,8 +13,8 @@
     "watch": [
       "./"
     ],
-    "ext": "ts, json",
-    "exec": "tsx index.ts"
+    "ext": "ts,json",
+    "exec": "ts-node index.ts"
   },
   "keywords": [],
   "author": "",
@@ -34,6 +34,8 @@
     "typescript": "^5.6.2"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.17"
+    "@types/cors": "^2.8.17",
+    "@types/node": "^22.13.4",
+    "ts-node": "^10.9.2"
   }
 }

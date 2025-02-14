@@ -1,0 +1,9 @@
+#### create message
+POST http://localhost:5200/contact/send
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "ah,ma@gmail.com",
+    "message": "Hello, I would like to know more about your services."
+}

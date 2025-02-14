@@ -6,6 +6,6 @@
     "sourceMap": true,
     "outDir": "dist",
   },
-  "include": ["/**/*"],
+  "include": ["./**/*"],
   "exclude": ["dist"]
 }
