@@ -17,7 +17,10 @@ app.use(
         credentials: true
     }));
 // app.use(cors({ credentials: true, origin: "https://portfolio.khalil-dev.me" }));
-
+app.get("/api/health", (req, res) => {
+    res.json({ status: "ok", message: "API is running!" });
+  });
+  
 
 app.use("/contact", contactRouter)
 
