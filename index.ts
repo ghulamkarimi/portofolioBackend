@@ -14,7 +14,8 @@ app.use(express.json());
 app.use(
     cors({
         origin: ['https://ai-webkraft.de', 'https://api.ai-webkraft.de'],
-        credentials: true
+        credentials: true,
+        methods: ["GET", "POST", "PUT", "DELETE"],
     })
 );
 
