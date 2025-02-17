@@ -18,6 +18,7 @@ app.use(
         methods: ["GET", "POST", "PUT", "DELETE"],
     })
 );
+app.options("*", cors());
 
 // ✅ API-Status-Route (Teste mit `curl -X GET https://www.ai-webkraft.de/api/`)
 app.get("/api/", (req, res) => {
